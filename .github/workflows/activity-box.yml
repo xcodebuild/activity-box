@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: xcodebuild/activity-box@master
+      - uses: JasonEtco/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
